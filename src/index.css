@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-image: url('./images/shaders/night.png');
-    background-attachment: fixed;
-    background-position: center center;
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+fade-in.appear {
+    opacity: 1;
 }

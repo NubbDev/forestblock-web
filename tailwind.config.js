@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode:false,
+  darkMode: "class",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -18,7 +18,7 @@ module.exports = {
       backgroundImage:{
         'dark-forestblock': "url('./images/shaders/night.png')",
         'light-forestblock': "url('./images/shaders/dawn.png')",
-      }
+      },
     },
   },
   plugins: [],
