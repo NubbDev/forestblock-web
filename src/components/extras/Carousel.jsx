@@ -36,26 +36,26 @@ const Carousel = () => {
     ]*/
 
     const slides = [
-        {url: [image[0]],}, 
-        {url: [image[1]],}, 
-        {url: [image[2]],}, 
-        {url: [image[3]],}, 
-        {url: [image[4]],}, 
-        {url: [image[5]],}, 
-        {url: [image[6]],}, 
-        {url: [image[7]],}, 
-        {url: [image[8]],}, 
-        {url: [image[9]],}, 
-        {url: [image[10]],}, 
-        {url: [image[11]],}, 
-        {url: [image[12]],}, 
-        {url: [image[13]],}, 
-        {url: [image[14]],}, 
+        {url: [image[0]]}, 
+        {url: [image[1]]}, 
+        {url: [image[2]]}, 
+        {url: [image[3]]}, 
+        {url: [image[4]]}, 
+        {url: [image[5]]}, 
+        {url: [image[6]]}, 
+        {url: [image[7]]}, 
+        {url: [image[8]]}, 
+        {url: [image[9]]}, 
+        {url: [image[10]]}, 
+        {url: [image[11]]}, 
+        {url: [image[12]]}, 
+        {url: [image[13]]}, 
+        {url: [image[14]]}, 
     ]
 
     return (
         <div>
-            <div className="w-96 h-full">
+            <div className="m-auto w-11/12 h-full">
                 <ImageSlider slides={slides}/>
             </div>
         </div>
